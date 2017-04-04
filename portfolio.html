@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/csss/reset.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>
+		Portfolio
+	</title>
+	<section id="maintitle">
+	Tim Gaz
+</section>
+</head>
+<body>
+<!-- using same assets from index.html, specifically; my name header, connect section, and top right index tabs-->
+<!-- using the same CSS style sheet to avoid redundant CSS code, using internal style sheet here as well for same reason-->
+<section id="portfoliotitle">
+	Portfolio
+</section>
+<!-- these are the tags for the top right of the page-->
+	<section id="contact">
+	Contact
+	</section>
+
+	<section id="portfolio">
+	portfolio
+	</section>
+
+	<section id="about">
+		About me
+	</section>
+<section id="footer">
+	Copyright2017 Tim Gaz
+</section>
+<!-- grey background -->
+<section id="background">
+</section>
+
+<!-- borders -->
+<section id="topborder">
+</section>
+
+<section id="bottomborder">	
+</section>
+
+	<section id="connectwme">
+	Connect with me
+	</section>	
+
+<!-- github icon -->
+<img id="git" src="assets/images/github.png" height="30" width="30">
+<!-- linkedin icon -->
+<img id="linkedin" src="assets/images/linkedin.png" height="30" width="30">
+<!--stack icon-->
+<img id="stack" src="assets/images/stack.png" height="30" width="30">
+
+<!-- full page background-->
+<section id="full">
+</section>
+
+<!--  now this is all the new additions for the portfolio page-->
+<!--project Banner tags to be placed over images -->
+<section id="hangman">
+	Hangman Game
+</section>
+<img id="hangmanimg" src="assets/images/rhino.jpg" height="100" width="100">
+
+<section id="RPG">
+	Role Playing Game
+</section>
+<img id="RPGimg" src="assets/images/bowie.jpg" height="100" width="100">
+<section id="trivia">
+	Trivia Game
+</section>
+<img id="triviaimg" src="assets/images/elephant.jpg" height="100" width="100">
+<section id="Rutgers">
+	Rutgers Information
+</section>
+<img id="rutgersimg" src="assets/images/rutgers.png" height="100" width="100">
+<section id="RPS">
+	Rock Paper Scissors
+</section>
+<img id="rpsimg" src="assets/images/deer.jpg" height="100" width="100">
+
+</body>
+
+<!-- this was also a test to see if i could have both external and internal CSS runnning on one page, it worked! -->
+
+<!-- Here is where I quickly realized the importance of consistant variable names -->
+<style>
+#portfoliotitle{
+	height: 50px;
+	width: 15%;
+	color: #4aaaa5;
+	background-color: white;
+	text-align: center;
+	font-size: large;
+	position:absolute;
+	top:100px;
+	left:2%;
+	font-family: times;
+}
+#hangman{
+	position:absolute;
+	top: 30%;
+	left:25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+}
+#hangmanimg{
+	position:absolute;
+	top: 30%;
+	left:25%;
+}
+
+#RPG{
+	position:absolute;
+	top:30%;
+	right:25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#RPGimg{
+	position: absolute;
+	top: 30%;
+	right: 25%;
+}
+#trivia{
+	position: absolute;
+	top: 50%;
+	left:25%;
+	z-index:1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#triviaimg{
+	position:absolute;
+	top:50%;
+	left:25%;
+}
+
+#Rutgers{
+	position:absolute;
+	top: 50%;
+	right: 25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#rutgersimg{
+position: absolute;
+top:50%;
+right:25%;
+}
+
+/* I intentionally cenetered this, I thought it looked better */
+#RPS{
+	position:absolute;
+	top:75%;
+	left: 50%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#rpsimg{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+}
+
+</style>
+</html>
