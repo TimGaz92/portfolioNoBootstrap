@@ -80,7 +80,7 @@ supposed to be use for the small icons*/
 }
 
 #topborder{
-	width:100%
+	width:100%;
 	height:50px;
 	background-color: #dddddd;
 	clear:both;
@@ -122,6 +122,235 @@ supposed to be use for the small icons*/
 #full{
 	background-color: #dddddd;
 	width:100%;
-	height:100%
+	height:100%;
+
+}
+
+	#contacttitle{
+	height: 50px;
+	width: 15%;
+	color: #4aaaa5;
+	background-color: white;
+	text-align: center;
+	font-size: large;
+	position:absolute;
+	top:75px;
+	left:2%;
+	font-family: times;
+}
+#name{
+	position: absolute;
+left: 7%;
+top: 20%;
+font-family: helvetica;
+}
+#nametxt{
+	position: absolute;
+	left: 7%;
+	top: 23%;
+}
+#email{
+position: absolute;
+left: 7%;
+top: 30%;
+font-family: helvetica;
+}
+#emailtxt{
+	position: absolute;
+	left: 7%;
+	top: 33%;
+	width:25%;
+}
+#message{
+position: absolute;
+left: 7%;
+top: 40%;
+font-family: helvetica;
+}
+#messagetxt{
+	position:absolute;
+	left: 7%;
+	top: 43%;
+	width: 33.3%;
+	height: 33.3%;
+}
+
+#submit{
+	position:absolute;
+	left: 7%;
+	text-orientation: center;
+	font-size: larger;
+	height: 25px;
+	background-color:#4aaaa5; 
+	color:white;
+	width: 10%;
+	bottom: 15%;
+	font-family: times;
+}
+#portfoliotitle{
+	height: 50px;
+	width: 15%;
+	color: #4aaaa5;
+	background-color: white;
+	text-align: center;
+	font-size: large;
+	position:absolute;
+	top:100px;
+	left:2%;
+	font-family: times;
+}
+#hangman{
+	position:absolute;
+	top: 30%;
+	left:25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+}
+#hangmanimg{
+	position:absolute;
+	top: 30%;
+	left:25%;
+}
+
+#RPG{
+	position:absolute;
+	top:30%;
+	right:25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#RPGimg{
+	position: absolute;
+	top: 30%;
+	right: 25%;
+}
+#trivia{
+	position: absolute;
+	top: 50%;
+	left:25%;
+	z-index:1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#triviaimg{
+	position:absolute;
+	top:50%;
+	left:25%;
+}
+
+#Rutgers{
+	position:absolute;
+	top: 50%;
+	right: 25%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#rutgersimg{
+position: absolute;
+top:50%;
+right:25%;
+}
+
+/* I intentionally cenetered this, I thought it looked better */
+#RPS{
+	position:absolute;
+	top:75%;
+	left: 50%;
+	z-index: 1;
+	width: 100px;
+	background-color: #4aaaa5;
+	font-family: helvetica;
+	color: white;
+}
+#rpsimg{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+}
+
+/*MEDIA QUERIES ARE BELOW*/
+/*since all images are set to 100px wide it makes figuring the percent differentials by size much easier :)*/
+@media only screen and (max-width: 640px){
+		#RPS1{
+		width: 6%;
+	}
+	#Rutgers{
+		width: 6%;
+	}
+	#trivia{
+		width: 6%;
+	}
+	#RPG{
+		width: 6%;
+	}
+	#hangman{
+		width: 6%;
+	}
+	#portfoliotitle{
+		top:4%;
+	}
+	#conacttitle{
+		top: 4%;
+	}
+
+
+}
+@media only screen and (max-width:768px){
+	#RPS1{
+		width: 7%;
+	}
+	#Rutgers{
+		width: 7%;
+	}
+	#trivia{
+		width: 7%;
+	}
+	#RPG{
+		width: 7%;
+	}
+	#hangman{
+		width: 7%;
+	}
+	#portfoliotitle{
+		top:4%;
+	}
+	#conacttitle{
+		top: 4%;
+	}
+
+}
+@media only screen and (max-width: 980px){
+		#RPS1{
+		width: 10%;
+	}
+	#Rutgers{
+		width: 10%;
+	}
+	#trivia{
+		width: 10%;
+	}
+	#RPG{
+		width: 10%;
+	}
+	#hangman{
+		width: 10%;
+	}
+	#portfoliotitle{
+		top:4%;
+	}
+	#conacttitle{
+		top: 4%;
+	}
+
 
 }
